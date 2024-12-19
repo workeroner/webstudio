@@ -1,0 +1,146 @@
+/* ------- global styles ------- */
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: "Roboto", sans-serif;
+    color: #757575;
+    letter-spacing: 3%;
+}
+
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+    max-width: calc(1170px + 30px);
+margin-left: auto;
+margin-right: auto;
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.button {
+    background-color: #2196F3;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 6%;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+.title {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* ------header styles------ */
+
+.header {
+background-color: #ffffff;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.contacts-list {}
+
+.contacts-list__item {}
+
+.nav__link,
+.contacts-list__link {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2%;
+}
+
+/* -----hero section styles ------*/
+
+.hero {
+    background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.hero .container {
+text-align: center;
+}
+
+.title-1 {
+color: #ffffff;
+font-size: 44px;
+line-height: 60px;
+font-weight: 900;
+margin-bottom: 30px;
+}
+
+/* ---- features section styles ------*/
+
+
+.features__item-title {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .features__item-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+/* ----- team section styles -----*/
+
+.member-card__photo {
+    margin-bottom: 30px;
+}
+
+.member-card__name {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.member-card__position {
+    font-size: 16px;
+}
+
+/* -------footer styles -----*/
+  
+.footer {
+    background-color: #2F303A;
+    padding: 60px 0;
+}
+
+.footer .contacts-list__link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .contacts-list__link_accent {
+    color: #fff;
+}
